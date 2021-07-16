@@ -1,7 +1,11 @@
 <a href="https://github.com/borealisai/advertorch" target="_blank"><img src="https://raw.githubusercontent.com/borealisai/advertorch/master/assets/logo.png?raw=true" alt="advertorch logo" width="200"></a>
 
 
-|PyPI-Status| |Downloads| |Build-Status| |Codecov|
+
+[![PyPI-Status](https://img.shields.io/pypi/v/advertorch.svg)](https://pypi.python.org/pypi/advertorch)
+[![Downloads](https://pepy.tech/badge/advertorch)](https://pepy.tech/project/advertorch)
+[![Build Status](https://travis-ci.com/msalihs/advertorch.svg?branch=fixTests)](https://travis-ci.com/github/msalihs/advertorch)
+[![Codecov](https://codecov.io/gh/msalihs/advertorch/branch/fixTests/graph/badge.svg?token=ZQYKZMLKR4)](https://codecov.io/gh/msalihs/advertorch)
 
 
 <a href="https://github.com/borealisai/advertorch" target="_blank"><img src="https://raw.githubusercontent.com/borealisai/advertorch/master/assets/advertorch.png?raw=true" alt="advertorch text" width="100"></a> is a Python toolbox for adversarial robustness research. The primary functionalities are implemented in PyTorch. Specifically, AdverTorch contains modules for generating adversarial perturbations and defending against adversarial examples, also scripts for adversarial training.
@@ -112,16 +116,3 @@ If you use AdverTorch in your research, we kindly ask that you cite the followin
 * Ben Feinstein
 * Francesco Croce
 * Taro Kiritani
-
-.. |PyPI-Status| image:: https://img.shields.io/pypi/v/advertorch.svg
-  :target: https://pypi.python.org/pypi/advertorch
-
-.. |Build-Status| image:: https://travis-ci.com/msalihs/advertorch.svg?branch=fixTests
-  :target: https://travis-ci.com/github/msalihs/advertorch
-
-.. |Codecov| image:: https://codecov.io/gh/msalihs/advertorch/branch/fixTests/graph/badge.svg?token=ZQYKZMLKR4
-   :target: https://app.codecov.io/gh/msalihs/advertorch
-
-.. |Downloads| image:: https://pepy.tech/badge/advertorch
-     :target: https://pepy.tech/project/advertorch
-     :alt: PePy stats
